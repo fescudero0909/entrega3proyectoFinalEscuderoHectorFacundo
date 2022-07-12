@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;1,300;1,400&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+.bg-color-fundi {
+  background-color: #ab0132; }
+
+.bg-color-clinica {
+  background-color: #006633; }
+
+@keyframes aparecer {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+
+.btn, .btnFundi {
+  color: white;
+  background-color: #006633;
+  width: 100px;
+  border-radius: 10%; }
+
+.btnFundi {
+  color: white;
+  background-color: #ab0132; }
+
+.navbar-brand {
+  animation-name: aparecer;
+  animation-duration: 2s; }
+
+.nav-link {
+  color: white;
+  font-family: "Ubuntu"; }
+
+main .titulo {
+  font-family: "Ubuntu"; }
+
+main .parrafo {
+  font-family: "Ubuntu"; }
+
+main .frase {
+  font-family: "Ubuntu";
+  font-style: italic; }
+
+.bg-colorCursos {
+  background-color: #d5d2d2; }
+
+main {
+  font-family: "Ubuntu"; }
+  main .objeto {
+    background-color: #d5d2d2; }
+
+.fotoCurso {
+  transition: all 1s; }
+  .fotoCurso:hover {
+    transform: translate(0px, -15px) scale(1.1); }
+
+aside {
+  font-family: "Ubuntu"; }
+  aside .areas {
+    font-style: oblique;
+    list-style: none; }
+
+footer {
+  background-color: #006633; }
+  footer .redes {
+    width: 50px; }
+
+.footerFCM {
+  background-color: #ab0132; }
+  .footerFCM .redes {
+    width: 50px; }

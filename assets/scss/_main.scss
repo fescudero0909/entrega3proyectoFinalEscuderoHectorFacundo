@@ -1,0 +1,30 @@
+main{
+    .titulo{
+        font-family:map-get($estilos , familiaFuente );
+    }
+    .parrafo{
+        font-family: map-get($estilos , familiaFuente );
+    }
+    .frase{
+        font-family: map-get($estilos , familiaFuente );
+        font-style: italic;
+    }
+}
+
+
+.bg-colorCursos{
+    background-color: #d5d2d2;
+}
+main{
+    font-family: map-get($estilos , familiaFuente );
+    .objeto{
+        background-color: #d5d2d2;
+    }
+}
+
+.fotoCurso{
+    transition: all 1s;
+    &:hover{
+        transform: translate(0px,-15px) scale(1.1) ;
+    }
+}

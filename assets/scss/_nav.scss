@@ -1,0 +1,8 @@
+.navbar-brand{
+    animation-name: map-get($estilos , nombreAnimacion) ;
+    animation-duration:  map-get($estilos , duracionAnimacion );
+}
+.nav-link{
+    color: map-get($estilos , colorFuente );
+    font-family: map-get($estilos , familiaFuente );
+}
