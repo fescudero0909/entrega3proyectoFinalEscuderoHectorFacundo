@@ -17,10 +17,10 @@
     opacity: 1; } }
 
 .btn, .btnFundi {
-  color: white;
-  background-color: #006633;
   width: 100px;
-  border-radius: 10%; }
+  border-radius: 10%;
+  color: white;
+  background-color: #006633; }
 
 .btnFundi {
   color: white;
