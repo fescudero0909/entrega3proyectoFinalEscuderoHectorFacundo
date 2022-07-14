@@ -88,10 +88,12 @@ aside {
 
 footer {
   background-color: #006633; }
-  footer .redes {
-    width: 50px; }
+  footer .parrafoPie {
+    color: white;
+    font-size: 14px; }
 
 .footerFCM {
   background-color: #ab0132; }
-  .footerFCM .redes {
-    width: 50px; }
+
+.redes {
+  width: 40px; }
