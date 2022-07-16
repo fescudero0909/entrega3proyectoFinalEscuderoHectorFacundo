@@ -26,6 +26,11 @@
   color: white;
   background-color: #ab0132; }
 
+.navbar {
+  position: sticky;
+  top: 0;
+  z-index: 20; }
+
 .navbar-brand {
   animation-name: aparecer;
   animation-duration: 2s; }
@@ -57,6 +62,7 @@
   color: antiquewhite;
   opacity: 0.9; }
 
+/*main del index*/
 main .titulo {
   font-family: "Ubuntu"; }
 
@@ -67,13 +73,36 @@ main .frase {
   font-family: "Ubuntu";
   font-style: italic; }
 
-.bg-colorCursos {
-  background-color: #d5d2d2; }
+/*pagina equipo*/
+.listadoProf .areaProf {
+  width: 200px;
+  background-color: #006633;
+  color: white;
+  font-family: "Ubuntu";
+  margin: 10px;
+  padding: 20px;
+  border-radius: 30%;
+  box-shadow: 0px 10px 14px -7px #1e4356;
+  border-color: none;
+  border-style: none; }
 
+.listadoProf .datosProf {
+  display: none;
+  position: absolute; }
+
+.listadoProf:hover .datosProf {
+  display: block;
+  position: relative; }
+
+/*pagina rehabilitacion*/
 main {
   font-family: "Ubuntu"; }
   main .objeto {
     background-color: #d5d2d2; }
+
+/*pagina capacitaciones*/
+.bg-colorCursos {
+  background-color: #d5d2d2; }
 
 .fotoCurso {
   transition: all 1s; }
@@ -95,5 +124,6 @@ footer {
 .footerFCM {
   background-color: #ab0132; }
 
-.redes {
-  width: 40px; }
+.redes a {
+  color: white;
+  font-size: 40px; }
